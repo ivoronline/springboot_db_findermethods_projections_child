@@ -16,8 +16,8 @@ public class Address {
   public String  street;
 
   //CONSTRUCTORS
-  public Address() {}
-  public Address(String city, String street) {
+  public Address() {}                           //Required by @Entity
+  public Address(String city, String street) {  //For loading data inside LoadPersons.java
     this.city   = city;
     this.street = street;
   }
